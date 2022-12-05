@@ -1,0 +1,62 @@
+
+http://eca.kvuno.io/api/v1/farmers/?start_date=2022-06-01&page=1
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjY3MDk3OTkyLCJqdGkiOiI3NTYzOGYxOTFkYmY0MmQ1OWFmZTE3ZGVkMjlkNTFmMSIsInVzZXJfaWQiOjZ9.TRTCjUlrD4TGwVGhXO254v3svwkhzTy6qZPo4eE8A-s
+
+# POST https://auth.kvuno.io/auth/jwt/refresh/
+# Content-Type: application/json
+
+# {
+# "refresh": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY2NjYzODkzMCwianRpIjoiZjM5YzgwNGM4YzQ2NDU5NDk5ZDBkYWEzN2M2OTMwNGEiLCJ1c2VyX2lkIjo2fQ.8-3lTAAqOuhvwigYRifF4AUXhXeFEBj1OWHfxfuQu80"
+# }
+
+POST https://auth.kvuno.io/auth/jwt/create/
+Content-Type: application/json
+
+{
+"staff_id":"Test123",
+"password": "testpass1"
+}
+
+
+# PUT http://eca.kvuno.io/api/v1/farmers/
+# Content-Type:application/json
+# Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjU4NDc2NDY4LCJqdGkiOiIzOWZmZWJlMjI1NDQ0NDc4YmQ0ZDQyMWFiZTFjMjIzMiIsInVzZXJfaWQiOjZ9.939-2TPtLCEqmzfER5AtRmWUgJk3Pa24S1YsAzW-Bmo
+
+# [{
+#     "id": 2,
+#     "first_name": "Wakoli_01",
+#     "Surname": "Leon_TEST_01",
+#     "Birth_date": "2022",
+#     "Gender": "male",
+#     "Contact_number": "123456789",
+#     "Date_of_registration": null,
+#     "Please_pinpoint_the_tion_is_taking_place": null,
+#     "instanceID": null,
+#     "project": "Climate Heroes",
+#     "farmerID": "UGAAA001TEST2",
+#     "verified_farmerID": null,
+#     "verified_date": null,
+#     "replacement_reason": null,
+#     "staffID": null
+# },
+# {
+#     "id": 3,
+#     "first_name": "Austine_033",
+#     "Surname": "Ochieng_033",
+#     "Birth_date": "2022",
+#     "Gender": "male",
+#     "Contact_number": "740322486",
+#     "Date_of_registration": null,
+#     "Please_pinpoint_the_tion_is_taking_place": null,
+#     "instanceID": null,
+#     "project": "Climate Heroes",
+#     "farmerID": "UGAAA002",
+#     "verified_farmerID": null,
+#     "verified_date": null,
+#     "replacement_reason": null,
+#     "staffID": null
+#   }]
+
+
+
